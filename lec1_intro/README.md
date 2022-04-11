@@ -11,6 +11,7 @@
 #### 6. Java variables must have a specific type.
 #### 7. Java variable types can never change.
 #### 8. Types are verified before the code even runs!!!
+This is unlike Python, where the type checks are performed DURING execution.
 
 ### About Funtions:
 #### 9. Functions must be declared as part of a class in Java.
