@@ -3,7 +3,7 @@ public class DrawATriangle {
         int col = 0;
         int row = 0;
         int SIZE = 5;
-        while (row <= SIZE) {
+        while (row < SIZE) {
             row = row + 1;
             col = 0;
             while (col < row) {
