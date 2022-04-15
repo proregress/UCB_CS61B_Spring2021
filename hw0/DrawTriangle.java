@@ -16,7 +16,7 @@ public class DrawTriangle {
    }
    
    public static void main(String[] args) {
-      System.out.println(drawTriangle(10));
+      drawTriangle(10);
       
    }
 }
