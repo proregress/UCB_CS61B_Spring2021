@@ -9,6 +9,24 @@
 | Sentinel Nodes | <b>How to write clean and simple and good codes<b> Special cases are not 'simple' <br>Sentinel Node哨兵节点<br> <img width="792" alt="截屏2022-05-30 下午12 37 26" src="https://user-images.githubusercontent.com/37496223/170918289-9ea87d23-5369-4e46-bd44-43a3119a2fb5.png">
  |
 | Invariants | An invariant is a condition that is guaranteed to be true during code execution |
+ 
+ ```
+ //using recursion to return size, need a helper method, because
+	//this SLList datastructure itself is not recursive.
+	/**Returns the size of the list that starts at IntNode p */
+	private static int size(IntNode p){
+		if(p.next == null){
+			return 1;
+		}
+		return 1 + size(p.next);
+
+	}
+
+	public int size(){
+		return size(first);
+	}
+ 
+ ```
   
   
 
