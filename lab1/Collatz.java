@@ -1,5 +1,5 @@
 /** Class that prints the Collatz sequence starting from a given number.
- *  @author
+ *  @author test git command
  */
 public class Collatz {
 
