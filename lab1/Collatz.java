@@ -1,11 +1,12 @@
 /** Class that prints the Collatz sequence starting from a given number.
- *  @author test
+ *  @author
  */
 public class Collatz {
 
-    /** Javadocs / Javadoc comments */
+    /**
+     * Javadocs / Javadoc comments */
     public static int nextNumber(int n) {
-        if (n  == 1) {
+        if (n == 1) {
             return 1;
         } else if (n % 2 == 1) {
             return 3 * n + 1;
