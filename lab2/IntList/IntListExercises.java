@@ -60,6 +60,34 @@ public class IntListExercises {
         return firstDigit == lastDigit;
     }
 
+//    /** Below has passed autograder
+//     * Part C: (Buggy) mutative method that squares each prime
+//     * element of the IntList.
+//     *
+//     * @param lst IntList from Lecture
+//     * @return True if there was an update to the list
+//     */
+//    public static boolean squarePrimes(IntList lst) {
+//        boolean flag = false;
+//        // Base Case: we have reached the end of the list
+//        if (lst == null) {
+//            return false;
+//        }
+//
+//        boolean currElemIsPrime = false;
+//        while(lst != null){
+//            currElemIsPrime = Primes.isPrime(lst.first);
+//
+//            if(currElemIsPrime){
+//                lst.first *= lst.first;
+//                flag = true;
+//            }
+//
+//            lst = lst.rest;
+//        }
+//
+//        return flag;
+//    }
     /**
      * Part C: (Buggy) mutative method that squares each prime
      * element of the IntList.
@@ -68,24 +96,18 @@ public class IntListExercises {
      * @return True if there was an update to the list
      */
     public static boolean squarePrimes(IntList lst) {
-        boolean flag = false;
         // Base Case: we have reached the end of the list
         if (lst == null) {
             return false;
         }
 
-        boolean currElemIsPrime = false;
-        while(lst != null){
-            currElemIsPrime = Primes.isPrime(lst.first);
+        boolean currElemIsPrime = Primes.isPrime(lst.first);
 
-            if(currElemIsPrime){
-                lst.first *= lst.first;
-                flag = true;
-            }
-
-            lst = lst.rest;
+        if (currElemIsPrime) {
+            lst.first *= lst.first;
         }
 
-        return flag;
+        boolean restPrimes = squarePrimes(lst.rest);
+        return currElemIsPrime || restPrimes;
     }
 }
