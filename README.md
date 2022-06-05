@@ -15,3 +15,7 @@ https://sp21.datastructur.es
 | PROJECT | TITLE |
 | -- | -- | 
 | proj0 | 2048 |
+
+| LAB | TITLE |    |
+| -- | -- | -- |
+| lab2 | Debugging | SquarePrimes of IntList:<b>Recursive solution with boolean result</b> |
