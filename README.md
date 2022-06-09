@@ -19,4 +19,4 @@ https://sp21.datastructur.es
 | LAB | TITLE |    |
 | -- | -- | -- |
 | lab2 | Debugging | SquarePrimes of IntList:<b>Recursive solution with boolean result</b> |
-| lab3 | Randomizing Testing and Timing | 1.int random = StdRandom.uniform(0, 2)生成随机数，进行随机操作<br><br>2.assertEquals/assertTrue直接比较两个数组对象不正确<br>3."conditional breakpoints" and "resume" to debug (lab4) |
+| lab3 | Randomizing Testing and Timing | 1.度量数据结构创建或操作所需要的时间<br>2.随机call a method：<br>int random = StdRandom.uniform(0, 2)生成随机数，进行随机操作<br>3.assertEquals/assertTrue直接比较两个数组对象不正确<br>4.debug操作：resume(lab4)、conditional breakpoint(lab4)、execution breakpoint |
