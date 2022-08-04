@@ -10,6 +10,8 @@ https://sp21.datastructur.es
 | lec05 | SLLISTS,Nested Classes,Sentinel Nodes | [notes](https://github.com/proregress/UCB_CS61B_Spring2021/blob/main/lec05/README.md) |   |
 | lec06 | DLLists,Arrays | [notes](https://github.com/proregress/UCB_CS61B_Spring2021/tree/main/lec06) |   |
 | lec07 | ALists,Resizing,vs. SLists | [notes](https://github.com/proregress/UCB_CS61B_Spring2021/tree/main/lec07) | 创建泛型的语法，loitering |
+| lec08 | Inheritance,Implements | [notes](https://github.com/proregress/UCB_CS61B_Spring2021/blob/main/lec_notes/lec08/Inheritance%2CImplements.md) | 父类引用指向子类对象，Is a vs Has a |
+
 
 
 | PROJECT | TITLE |
